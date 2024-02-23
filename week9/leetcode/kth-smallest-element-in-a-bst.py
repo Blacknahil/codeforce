@@ -15,6 +15,6 @@ class Solution:
             inorder(node.right)
             return 
         inorder(root)
-        print(ans)
         return ans[k-1]
+        
         
